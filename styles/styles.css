@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1em;
+}
+
+.logo{
+	font-family: 'PT Serif', sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+	color: #f56232 !important;
+}
+.nav-link{
+	color: #fff !important;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+.main-content{
+	background: url(../images/Logo.png) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.main-btn{
+	font-size: 1em;
+	height: 60px;
+	width: 150px;
+}
+h5{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.description-section{
+	height: 100vh;
+	background-color: #fff;
+}
+.form-section{
+	height: 100vh;
+	background-color: #f7f7f7;
+}
+.footer-section{
+
+}
+h1{
+	font-family: 'PT Serif', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.btn{
+	background-color: #ff6633;
+	color: #fff;
+    border-color: #ff6633;
+}
