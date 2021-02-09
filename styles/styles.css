@@ -28,28 +28,156 @@ body{
 	height: 60px;
 	width: 150px;
 }
-h5{
-	font-size: 2em;
+.book-btn{
+	font-size: 1em;
+	height: 40px;
+	width: 150px;
+}
+h4{
+	font-size: 26px;
 	font-weight: bold;
+}
+h5{
+	font-size: 22px;
+	font-weight: bold;
+	font-family: 'PT Serif', sans-serif;
+	}
+h6{
+	font-size: 16px;
+	font-weight: bold;
+	color: #ff6633;
+	font-family: 'PT Serif', sans-serif;
+}
+.info-text{
+	position:relative;
+	font-size: 12px;
+	margin: 0 0 0 15px;
+	font-weight: bold;
+	font-family: 'PT Serif', sans-serif;
+}
+.span__date::before{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 1px;
+	left: -15px;
+	width: 13px;
+	height: 13px;
+	background: url(../images/date.png);
+}
+.span__time::before{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 1px;
+	left: -15px;
+	width: 13px;
+	height: 13px;
+	background: url(../images/time.png);
+}
+.read-more{
+	color: #ff6633;
+	text-decoration: none;
+}
+.text-regular{
+	font-size: 14px;
 }
 
 .description-section{
-	height: 100vh;
 	background-color: #fff;
 }
 .form-section{
-	height: 100vh;
 	background-color: #f7f7f7;
 }
 .footer-section{
+	background-color: #222222;
+}
 
+.reservation__input input{
+	height: 50px;
+	outline: none;
+	background-color: #f7f7f7;
+}
+.name{
+	position: relative;
+}
+.name::after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 18.5px;
+	right: 10px;
+	width: 13px;
+	height: 13px;
+	background: url(../images/name.png);
+}
+.date{
+	position: relative;
+}
+.date::after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 18.5px;
+	right: 10px;
+	width: 13px;
+	height: 13px;
+	background: url(../images/date.png);
+}
+.time{
+	position: relative;
+}
+.time::after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 18.5px;
+	right: 10px;
+	width: 13px;
+	height: 13px;
+	background: url(../images/time.png);
+}
+.commensals{
+	position: relative;
+}
+.commensals::after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 18.5px;
+	right: 10px;
+	width: 13px;
+	height: 13px;
+	background: url(../images/commensals.png);
+}
+.table__find{
+	height: 50px;
+	text-transform: uppercase;
+}
+.social{
+	display: inline-block;
+	height: 40px;
+	width: 120px;
+	border-radius: 6px;
+	color: white;
+	text-decoration: none;
+	line-height: 40px;
+}
+.social:hover{
+	color: #000;
+	}
+.btn-facebook{
+	background-color: #3e59a5;
+}
+.btn-twitter{
+	background-color: #1b95e0;
 }
 h1{
 	font-family: 'PT Serif', sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
 }
-.btn{
+.btn-main{
 	background-color: #ff6633;
 	color: #fff;
     border-color: #ff6633;
